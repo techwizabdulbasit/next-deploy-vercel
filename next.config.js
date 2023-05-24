@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
@@ -17,3 +18,24 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+=======
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    appDir: true,
+    // topLevelAwait: true,
+  },
+  env: {
+    BASE_URL: process.env.BASE_URL,
+  },
+  images: {
+    domains: ["image.tmdb.org", "images.unsplash.com", "rentzo.qsaweb.com", "shorelinerealestate.com"],
+    // path: "http://rentzo.qsaweb.com/_next/image"
+  },
+  // distDir: 'build',
+  // enableUndici: true,
+
+}
+
+module.exports = nextConfig
+>>>>>>> 3f170cf9efd8f73d4e21d58686142b084f1fb7fa
