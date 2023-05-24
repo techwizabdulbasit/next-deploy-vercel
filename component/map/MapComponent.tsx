@@ -141,7 +141,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Loader } from '@googlemaps/js-api-loader';
-import userPlaces from '../../userPlaces.json';
+// import userPlaces from '../../userPlaces.json';
 
 const baseUrl = process.env.BASE_URL;
 

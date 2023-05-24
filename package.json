@@ -1,10 +1,10 @@
 {
-  "name": "frontend-client-app",
+  "name": "next-deploy-vercel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next start -p 3200",
+    "build": "next build",
     "start": "next start",
     "export": "next export",
     "lint": "next lint"
