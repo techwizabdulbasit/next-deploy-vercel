@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  width: 100%;
+  max-width: 2000px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===========
+ MAP SECTION
+============ */
+.cardContainer::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* ===================
+   MAP SLIDER CSS
+==================== */
+.carousel {
+  padding-top: 0px;
+}
+.carousel .thumbs {
+  display: none;
+}
+.carousel .control-dots {
+  display: none;
+}
+.carousel .carousel-status {
+  display: none;
+}
+.carousel .control-disabled.control-arrow {
+  opacity: inherit !important;
+  display: block !important;
+}
+
+.carousel .thumbs-wrapper {
+  display: none !important;
+}
+.thumbs-wrapper .axis-vertical .control-arrow .control-next {
+  position: relative;
+}
+.carousel .control-next.control-arrow,
+.carousel .control-prev.control-arrow {
+  transition: all 0.25s ease-in;
+  background-color: rgba(255, 255, 255, 0.27) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  filter: alpha(opacity=40);
+  position: absolute;
+  z-index: 2;
+  top: 42% !important;
+  cursor: pointer;
+  /* -webkit-text-stroke: 1px black !important; */
+}
+.carousel.carousel-slider .control-arrow {
+  font-size: 0px !important;
+}
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #2f5f82 !important;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #2f5f82 !important;
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.27) !important;
+}
+
+
+
+/* =======================
+DETAILS SECTOPN POPUP CSS
+========================= */
+.popUp_Over_Flow::-webkit-scrollbar{
+  width: 3px;
+  border-radius: 15px;
+}
+.popUp_Over_Flow::-webkit-scrollbar-track{
+  background-color: #7D7F88;
+  border-radius: 15px;
+}
+.popUp_Over_Flow::-webkit-scrollbar-thumb{
+  background-color: #2F5F82;
+  border-radius: 15px;
+}
+
